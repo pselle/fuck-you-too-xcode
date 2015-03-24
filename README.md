@@ -1,6 +1,6 @@
-# Fuck you too, XCode
+# Fuck you too, Xcode
 
-Me: XCode hates me and I want to hate it back
+Me: Xcode hates me and I want to hate it back
 
 [Soroush](https://twitter.com/khanlou): yess
 
