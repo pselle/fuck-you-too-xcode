@@ -3,7 +3,9 @@
 
 import Cocoa
 
+// MARK - Arrays & Dictionaries
 var someArray = []
+
 //someArray.append("Cats")
 // NSArray does not have a member named 'append'
 // Why did it pick NSArray?
@@ -15,12 +17,12 @@ println(noReallyAnFingArray)
 var thisToo = [Int]()
 thisToo.append(3)
 
-
 // var someDictionary: [String:String] = []
 // Swift thinks [] represents an array, not a dictionary
 
 var someDictionary1 = [String:String]()
 
+// MARK - Strings
 let someString = "Rawrg"
 let someOtherString = ""
 // someString.substringFromIndex(2)
@@ -36,7 +38,7 @@ guhPleaseAUsefulString.substringFromIndex(1)
 Swift’s String type is bridged to Foundation’s NSString class. If you are working with the Foundation framework in Cocoa or Cocoa Touch, the entire NSString API is available to call on any String value you create when type cast to NSString, as described in AnyObject. You can also use a String value with any API that requires an NSString instance
 */
 
-
+// MARK - Cool things diversion
 // Happy things: Tuples!
 func gimmeTuples(i:String, j:String) -> (String, String) {
     return (i,j)
@@ -63,7 +65,7 @@ println(p)
 //p.dynamicType.Value
 //The above code doesn't run. BUT it will tell you, in the error, what type your variable is'
 
-// STRUCTS
+// MARK - Structs
 // Things defined outside of init are accessible,
 // things only defined inside init are not (scope)
 struct SomeStruct {
